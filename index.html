@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="port-nav navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="./index.html">Krutik P.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#images">Images</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <section id="home">
+    <div class="home-img-holder">
+      <img src="img/home-photo.png" class="home-img">
+    </div>
+  </section>
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container card">
+      <div class="row card-body">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/about-photo.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="h6">Name: </span> Krutik Patel</p>
+                      <p><span class="h6">Profile: </span> RoR Developer</p>
+                      <p><span class="h6">Email: </span> krutik.p@simformsolutions.com</p>
+                      <p><span class="h6">Phone: </span> (617) 557-0089</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <h6>Skills</h6>
+                  <span>HTML</span> <span class="font-weight-bold">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 85%;"></div>
+                  </div>
+                  <br>
+                  <span>CSS3</span> <span class="font-weight-bold">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 75%"></div>
+                  </div>
+                  <br>
+                  <span>JAVASCRIPT</span> <span class="font-weight-bold">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 90%"></div>
+                  </div>
+                  <br>
+                  <span>RUBY ON RAILS</span> <span class="font-weight-bold">65%</span>
+                  <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="images" class="sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">Images</h2>
+          <br>
+
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card" style="width: 30%;">
+                    <img src="img/about-photo.jpg" class="card-img-top" alt="...">
+                  </div>
+              
+                  <div class="card" style="width: 30%;">
+                    <img src="img/slider1.jpg" class="card-img-top" alt="...">
+                  </div>
+              
+                  <div class="card" style="width: 30%;">
+                    <img src="img/slider2.jpg" class="card-img-top" alt="...">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card" style="width: 30%;">
+                    <img src="img/about-photo.jpg" class="card-img-top" alt="...">
+                  </div>
+              
+                  <div class="card" style="width: 30%;">
+                    <img src="img/slider1.jpg" class="card-img-top" alt="...">
+                  </div>
+              
+                  <div class="card" style="width: 30%;">
+                    <img src="img/slider2.jpg" class="card-img-top" alt="...">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                  <div class="card" style="width: 30%;">
+                    <img src="img/about-photo.jpg" class="card-img-top" alt="...">
+                  </div>
+              
+                  <div class="card" style="width: 30%;">
+                    <img src="img/slider1.jpg" class="card-img-top" alt="...">
+                  </div>
+              
+                  <div class="card" style="width: 30%;">
+                    <img src="img/slider2.jpg" class="card-img-top" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="services" class="sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">Services</h2>
+          <br>
+          <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card" style="width: 20%;">
+              <img src="img/html.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">HTML</h4>
+                <p class="card-text">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+              </div>
+            </div>
+        
+            <div class="card" style="width: 20%;">
+              <img src="img/css.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">CSS</h4>
+                <p class="card-text">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.</p>
+              </div>
+            </div>
+        
+            <div class="card" style="width: 20%;">
+              <img src="img/js.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">JAVASCRIPT</h4>
+                <p class="card-text">JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+              </div>
+            </div>
+        
+            <div class="card" style="width: 20%;">
+              <img src="img/ror.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">RoR</h4>
+                <p class="card-text">Rails is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section id="footer">
+      <div class="container-fluid-nav bg-dark">
+        <div>
+           <ul class="nav navbar-nav text-center">
+              <li class="my-1"><a href="#home">Home</a>
+              </li>
+              <li class="my-1"><a href="#about">About</a>
+              </li>
+              <li class="my-1"><a href="#images">Images</a>
+              </li>
+              <li class="my-1"><a href="#services">Services</a>
+              </li>
+              <li class="my-1"><p class="text-light">Copyright 2023 © krutik patel</p>
+              </li>
+           </ul>
+        </div>
+     </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

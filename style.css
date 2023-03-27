@@ -1,0 +1,33 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.port-nav {
+  box-shadow: black 1px 1px 15px;
+}
+
+#about {
+  padding-top: 5%;
+}
+
+.about-img {
+  width: 75%;
+}
+
+.home-img {
+  width: 100%;
+}
+
+#home {
+  padding-top: 1%;
+  width: 83%;
+  margin-left: 9%;
+}
+
+#images {
+  padding-top: 3%;
+}
+
+#services {
+  padding-top: 3%;
+}
